@@ -22,7 +22,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
- * ExtensionRegister 
+ * ExtensionRegister
+ * 扩展点注册
  * @author fulan.zjf 2017-11-05
  */
 @Component

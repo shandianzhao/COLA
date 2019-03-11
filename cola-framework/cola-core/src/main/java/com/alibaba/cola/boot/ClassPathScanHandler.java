@@ -32,6 +32,7 @@ import lombok.Setter;
 
 
 /**
+ * 类路径扫描处理类
  * @author zhenxin.yzx ( Rocky )
  * @since 15/7/25
  */

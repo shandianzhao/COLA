@@ -19,7 +19,8 @@ import com.alibaba.cola.command.PostInterceptor;
 import com.alibaba.cola.dto.Command;
 
 /**
- * PostInterceptorRegister 
+ * PostInterceptorRegister
+ * 返回拦截器注册
  * @author fulan.zjf 2017-11-04
  */
 @Component

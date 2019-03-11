@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Just send Command to CommandBus, 
- * 
+ * //命令总线
  * @author fulan.zjf 2017年10月24日 上午12:47:18
  */
 @Component

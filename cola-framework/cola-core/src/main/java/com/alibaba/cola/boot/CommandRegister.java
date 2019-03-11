@@ -24,7 +24,8 @@ import java.lang.reflect.Method;
 
 /**
  * CommandRegister
- * 
+ * 命令注册 -> 扫描带有 Command 注解的类，加载
+ *
  * @author fulan.zjf 2017-11-04
  */
 
@@ -32,7 +33,7 @@ import java.lang.reflect.Method;
 public class CommandRegister implements RegisterI {
 
     @Autowired
-    private CommandHub         commandHub;
+    private CommandHub commandHub;
 
     @Override
     public void doRegistration(Class<?> targetClz) {
@@ -47,26 +48,26 @@ public class CommandRegister implements RegisterI {
     private Class<? extends Command> getCommandFromExecutor(Class<?> commandExecutorClz) {
         Method[] methods = commandExecutorClz.getDeclaredMethods();
         for (Method method : methods) {
-            if (isExecuteMethod(method)){
+            if (isExecuteMethod(method)) {
                 Class commandClz = checkAndGetCommandParamType(method);
                 commandHub.getResponseRepository().put(commandClz, method.getReturnType());
                 return (Class<? extends Command>) commandClz;
             }
         }
-        throw new ColaException(" There is no " + ColaConstant.EXE_METHOD + "() in "+ commandExecutorClz);
+        throw new ColaException(" There is no " + ColaConstant.EXE_METHOD + "() in " + commandExecutorClz);
     }
 
-    private boolean isExecuteMethod(Method method ){
+    private boolean isExecuteMethod(Method method) {
         return ColaConstant.EXE_METHOD.equals(method.getName()) && !method.isBridge();
     }
 
-    private Class checkAndGetCommandParamType(Method method){
+    private Class checkAndGetCommandParamType(Method method) {
         Class<?>[] exeParams = method.getParameterTypes();
-        if (exeParams.length == 0){
-            throw new ColaException("Execute method in "+method.getDeclaringClass()+" should at least have one parameter");
+        if (exeParams.length == 0) {
+            throw new ColaException("Execute method in " + method.getDeclaringClass() + " should at least have one parameter");
         }
-        if(!Command.class.isAssignableFrom(exeParams[0]) ){
-            throw new ColaException("Execute method in "+method.getDeclaringClass()+" should be the subClass of Command");
+        if (!Command.class.isAssignableFrom(exeParams[0])) {
+            throw new ColaException("Execute method in " + method.getDeclaringClass() + " should be the subClass of Command");
         }
         return exeParams[0];
     }

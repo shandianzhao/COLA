@@ -4,6 +4,8 @@ import org.springframework.stereotype.Component;
 
 import java.lang.annotation.*;
 
+
+//前置拦截器
 @Inherited
 @Component
 @Target({ElementType.TYPE})

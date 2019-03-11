@@ -10,6 +10,8 @@ package com.alibaba.cola.assembler;
 
 /**
  * 适用于消息，查询，HSF等接口的参数装配
+ *
+ * 防腐层接口  适用于装配
  * Assembler Interface
  *
  * @author fulan.zjf 2017-11-07

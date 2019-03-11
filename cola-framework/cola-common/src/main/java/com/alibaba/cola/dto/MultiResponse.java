@@ -7,6 +7,8 @@ import java.util.Collection;
  * usually use in page query or conditional query
  * <p/>
  * Created by Danny.Lee on 2017/11/1.
+ *
+ * 多值的 Response
  */
 public class MultiResponse<T> extends Response {
 

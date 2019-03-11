@@ -6,7 +6,7 @@ import com.alibaba.cola.dto.Response;
 /**
  * 
  * CommandBus
- * 
+ *  bus 接口
  * @author fulan.zjf 2017年10月21日 下午11:00:58
  */
 public interface CommandBusI {

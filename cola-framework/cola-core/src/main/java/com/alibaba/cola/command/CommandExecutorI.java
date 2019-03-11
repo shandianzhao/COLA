@@ -4,7 +4,7 @@ import com.alibaba.cola.dto.Command;
 import com.alibaba.cola.dto.Response;
 
 /**
- * 
+ * 命令执行器接口
  * CommandExecutorI
  * 
  * @author fulan.zjf 2017年10月21日 下午11:01:05

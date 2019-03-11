@@ -1,7 +1,5 @@
 package com.alibaba.cola.dto.event;
 
-import com.alibaba.cola.dto.event.Event;
-
 /**
  * Domain Event (领域事件）
  *

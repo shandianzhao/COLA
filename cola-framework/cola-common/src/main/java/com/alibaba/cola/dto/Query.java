@@ -3,7 +3,7 @@ package com.alibaba.cola.dto;
 /**
  * 
  * Query is a special Command which will directly call DataTunnel for data objects
- * 
+ * 查询条件
  * @author fulan.zjf 2017年10月22日 下午7:26:49
  */
 public abstract class Query extends Command{

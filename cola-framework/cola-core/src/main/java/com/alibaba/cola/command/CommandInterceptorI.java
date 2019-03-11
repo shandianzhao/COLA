@@ -5,7 +5,7 @@ import com.alibaba.cola.dto.Response;
 
 /**
  * Interceptor will do AOP processing before or after Command Execution
- * 
+ * 命令拦截器接口
  * @author fulan.zjf 2017年10月25日 下午4:04:43
  */
 public interface CommandInterceptorI<T extends com.alibaba.cola.dto.Command> {

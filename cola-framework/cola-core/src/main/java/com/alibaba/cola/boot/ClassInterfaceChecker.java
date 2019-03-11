@@ -4,6 +4,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
 /**
+ * 类接口的检查
  * @author fulan.zjf
  * @date 2017/12/21
  */

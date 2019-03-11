@@ -1,6 +1,7 @@
 package com.alibaba.cola.dto;
 
 /**
+ * 单值的response
  * Response with single record to return
  * <p/>
  * Created by Danny.Lee on 2017/11/1.

@@ -3,6 +3,7 @@ package com.alibaba.cola.dto.event;
 import com.alibaba.cola.dto.DTO;
 
 /**
+ * 主要用于发送消息
  * @author shawnzhan.zxy
  * @date 2017/11/20
  */
@@ -12,8 +13,11 @@ public class Event extends DTO{
     /**
      * Optional fields, mainly used for Messaging Middleware
      */
+    //ID
     private String eventId;
+    //类型
     private String eventType;
+    //主题
     private String eventTopic;
 
     public String getEventType(){

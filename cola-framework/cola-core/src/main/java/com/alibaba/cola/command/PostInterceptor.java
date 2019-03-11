@@ -4,8 +4,9 @@ import org.springframework.stereotype.Component;
 
 import java.lang.annotation.*;
 
+//后置拦截器
 @Inherited
-@Component
+@Command
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface PostInterceptor {

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * ApplicationContextHelper
- *
+ * Spring 上下文
  * @author Frank Zhang
  * @date 2018-01-07 12:30 PM
  */

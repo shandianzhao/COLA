@@ -2,6 +2,7 @@ package com.alibaba.cola.boot;
 
 import java.util.Comparator;
 
+//类比较
 public class ClassNameComparator implements Comparator<Class<?>> {
     @Override
     public int compare(Class<?> o1, Class<?> o2) {

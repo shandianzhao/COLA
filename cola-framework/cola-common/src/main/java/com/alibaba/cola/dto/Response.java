@@ -2,7 +2,7 @@ package com.alibaba.cola.dto;
 
 /**
  * Response to caller
- * 
+ * 一个统一返回的对象
  * @author fulan.zjf 2017年10月21日 下午8:53:17
  */
 public class Response extends DTO{

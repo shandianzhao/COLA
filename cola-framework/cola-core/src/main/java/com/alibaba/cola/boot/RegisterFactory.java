@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * RegisterFactory
- *
+ * 返回相对应的 注册器
  * @author fulan.zjf 2017-11-04
  */
 @Component

@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * Command Hub holds all the important information about Command
- * 
+ * 命令中枢
  * @author fulan.zjf 2017-10-24
  */
 @SuppressWarnings("rawtypes")

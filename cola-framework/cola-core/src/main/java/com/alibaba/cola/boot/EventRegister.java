@@ -24,7 +24,7 @@ import java.lang.reflect.Method;
 
 /**
  * EventRegister
- *
+ * 事件注册
  * @author shawnzhan.zxy
  * @date 2017/11/20
  */

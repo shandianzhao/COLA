@@ -2,7 +2,7 @@ package com.alibaba.cola.dto;
 
 /**
  * Order Description
- *
+ *  排序
  * @author Danny.Lee 2017/12/19
  */
 public class OrderDesc {

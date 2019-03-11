@@ -5,8 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 这是用于在应用程序和调用程序之间传输数据的简单数据对象。
  * This is the simple data object used to transfer data between application and caller.
  *
+ * 典型的调用者包括控制器、RPC、MTop等。
  * Typical caller includes controller, RPC, MTop and so on.
  *
  * @author fulan.zjf 2017-10-27 PM 12:19:15

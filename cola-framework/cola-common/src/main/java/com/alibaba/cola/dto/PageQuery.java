@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
+ * 分页查询
  * page query
  * <p/>
  * Created by Danny.Lee on 2017/11/1.

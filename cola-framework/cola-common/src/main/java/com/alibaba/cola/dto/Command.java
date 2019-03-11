@@ -5,7 +5,7 @@ import com.alibaba.cola.context.Context;
 /**
  * Command stands for a request from Client.
  * According CommandExecutor will help to handle the business logic. This is a classic Command Pattern
- *
+ *	命令 TODO 命令模式
  * @author fulan.zjf 2017年10月27日 下午12:28:24
  */
 public abstract class Command extends DTO{
